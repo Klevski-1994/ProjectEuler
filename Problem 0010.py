@@ -1,9 +1,12 @@
 # Problem 10
 # Calculates the sum of all primes below the target value (in this case, 2,000,000)
 
+#NOTE: can be sped up with an implementation using the sieve of Eratosthenes
+
+
 import math
 
-# Addes together all prime numbers below the target value. Requires helper function is_prime
+# Adds together all prime numbers below the target value. Requires helper function is_prime
 def upper_bound_prime_sum(x):
     prime_sum = 0
     prime_list = []
